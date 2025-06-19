@@ -8,12 +8,12 @@
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="video/example.png"width="auto" height="400">
+      <img src="https://github.com/emrhnzngn/gradient_list_view/blob/master/video/example.png"width="auto" height="400">
       <br>
     </td>
     <td width="50%" align="center">
-      <a href="video/example.gif">
-        <img src="video/example2.png" width="auto" height="400">
+      <a href="https://github.com/emrhnzngn/gradient_list_view/blob/master/video/example.gif">
+        <img src="https://github.com/emrhnzngn/gradient_list_view/blob/master/video/example2.png" width="auto" height="400">
       </a>
       <br>
     </td>
