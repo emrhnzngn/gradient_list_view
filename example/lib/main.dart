@@ -46,11 +46,11 @@ class _MyHomePageState extends State<MyHomePage> {
             Expanded(
               child: GradientListView(
                 gradientColors: [
-                  Colors.white,
-                  Colors.white.withValues(alpha: .0),
-                  Colors.white.withValues(alpha: .0),
-                  Colors.white.withValues(alpha: .0),
-                  Colors.white,
+                  Colors.red,
+                  Colors.red.withValues(alpha: .0),
+                  Colors.red.withValues(alpha: .0),
+                  Colors.red.withValues(alpha: .0),
+                  Colors.red,
                 ],
                 gradientStops: const [0.0, 0.1, 0.5, 0.9, 1.0],
                 // gradientHeight: 200,
