@@ -29,12 +29,6 @@ class GradientListView extends StatelessWidget {
   /// You can use this to control the fade area precisely.
   final double? gradientHeight;
 
-  /// Controls whether the gradient overlay itself should ignore pointer events.
-  /// Setting this to true (default) allows touches to pass through to the
-  /// underlying [child] widget. Set to false if the gradient itself should
-  /// capture pointer events (uncommon for this use case).
-  final bool ignorePointer;
-
   /// Creates a [GradientListView] with customizable gradient properties.
   const GradientListView({
     super.key,
@@ -50,7 +44,6 @@ class GradientListView extends StatelessWidget {
     this.gradientBegin = Alignment.topCenter,
     this.gradientEnd = Alignment.bottomCenter,
     this.gradientHeight,
-    this.ignorePointer = true,
   });
 
   @override
@@ -62,7 +55,7 @@ class GradientListView extends StatelessWidget {
         // The gradient overlay that creates the fade effect.
         // IgnorePointer ensures that interactions with the list below are not blocked.
         IgnorePointer(
-          ignoring: ignorePointer, // Allow or disallow pointer events
+          ignoring: true, // Allow or disallow pointer events
           child: Container(
             height: gradientHeight, // Apply custom height if provided
             decoration: BoxDecoration(
