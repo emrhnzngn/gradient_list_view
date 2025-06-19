@@ -2,3 +2,5 @@
 First Publish
 ## 0.1.1
 Added Example Gif
+## 0.1.2
+Edited Read Me
