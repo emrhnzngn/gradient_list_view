@@ -4,7 +4,20 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-![Example Video](video/example.gif)
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="video/example.png"width="auto" height="400">
+      <br>
+    </td>
+    <td width="50%" align="center">
+      <a href="video/example.mp4">
+        <img src="video/example.png" width="auto" height="400">
+      </a>
+      <br>
+    </td>
+  </tr>
+</table>
 
 `gradient_list_view` is a Flutter package that provides a simple yet effective way to add a gradient fade effect to the top and bottom of any scrollable widget. This creates a visually pleasing effect where content appears to blend seamlessly into the background, especially useful for long lists or scrollable areas.
 
