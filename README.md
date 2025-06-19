@@ -11,8 +11,8 @@
       <br>
     </td>
     <td width="50%" align="center">
-      <a href="video/example.mp4">
-        <img src="video/example.png" width="auto" height="400">
+      <a href="video/example.gif">
+        <img src="video/example2.png" width="auto" height="400">
       </a>
       <br>
     </td>
