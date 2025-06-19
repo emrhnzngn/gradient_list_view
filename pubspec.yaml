@@ -1,6 +1,6 @@
 name: gradient_list_view
 description: A Flutter package to easily add gradient fade effects to the top and bottom of any scrollable widget, making content blend seamlessly.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/emrhnzngn/gradient_list_view 
 repository: https://github.com/emrhnzngn/gradient_list_view 
 issue_tracker: https://github.com/emrhnzngn/gradient_list_view/issues 
