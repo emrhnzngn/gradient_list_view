@@ -4,3 +4,5 @@ First Publish
 Added Example Gif
 ## 0.1.2
 Edited Read Me
+## 0.1.3
+Edited Example
